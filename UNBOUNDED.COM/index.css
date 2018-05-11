@@ -1,0 +1,328 @@
+*{margin: 0px;
+padding: 0px;}
+
+body{background: rgba(216,217,189,0.5);
+}
+
+.head {background-color: rgba(121,224,164,0.5);
+  max-width:100%;
+  color: #fff;
+}
+
+.head::after{
+  content:"";
+  clear: right;
+  display:table;
+}
+
+.imge{border-radius: 50%;
+  position: relative;
+  left: -250px;
+width: 150px;
+height: 150px;
+clear: both;
+}
+
+.head1{
+  color: #f7b577;
+  float: left;
+  position: relative;
+  top:50px;
+  left:500px;
+ font-family: 'Merienda';
+ font-size: 45px;
+clear: right;}
+
+.menu{float: right;
+  margin-top: 100PX;
+list-style-type: none;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 0px;
+
+}
+a{text-decoration:none;}
+.menu li{border-left: 1px solid grey;
+  padding-left: 15px;
+  padding-right: 5px;
+  font-family: 'Actor';
+  font-size: 22px;
+  display: inline;
+
+}
+
+.menu li:first-child {border-left: none;}
+
+section {margin-top: 50px;
+  width: 1200px;
+  margin-left: 80px;
+margin-bottom: 120px;
+border-bottom:1px solid black;
+height: 280px;
+
+}
+
+
+section div{
+margin-bottom: 150px;
+display: inline-block;
+
+}
+
+
+
+
+.sec1 .div1{background: url("website/kbnew.jpg");
+  background-size: cover;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-left:50px;
+margin-right: 20px;
+position: relative;
+top: 70px;
+}
+
+.sec1 .div1 .art1{display: none;
+background: #f1f1f1;
+position:absolute;
+top: 150px;
+width: 220px;
+height: 150px;
+overflow-y: auto;}
+
+.sec1 .div1:hover .art1{display: block;}
+
+.sec1 .div2{background: #a69b77 url("website/flame.jpg");
+background-size: cover;
+position: relative;
+top: 70px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-left:50px;
+margin-right: 20px;
+}
+.sec1 .div2 .art2{display: none;
+background: #f1f1f1;
+position: absolute;
+top: 150px;
+min-width: 200px;
+height: 150px;
+overflow-y: auto;
+}
+
+.sec1 .div2:hover .art2{display: block;
+  }
+
+
+  .sec1 .div3{background: #a69b77 url("website/mike_real.jpg");
+  background-size: cover;
+  position: relative;
+  top: 70px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left:50px;
+  margin-right: 20px;
+  }
+  .sec1 .div3 .art3{display: none;
+  background: #f1f1f1;
+  position: absolute;
+  top: 150px;
+  min-width: 200px;
+  height: 150px;
+  overflow-y: auto;
+  }
+
+  .sec1 .div3:hover .art3{display: block;
+    }
+
+
+
+.sec1 .div4{background: #a69b77 url("website/vrose.jpg");
+      background-size: cover;
+      position: relative;
+      top: 70px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-left:50px;
+      margin-right: 20px;
+      }
+.sec1 .div4 .art4{display: none;
+      background: #f1f1f1;
+      position: absolute;
+      top: 150px;
+      min-width: 200px;
+      height: 150px;
+      overflow-y: auto;
+      }
+
+.sec1 .div4:hover .art4{display: block;
+}
+
+
+.sec1 .div5{background: #a69b77 url("website/datruth.jpg");
+background-size: cover;
+position: relative;
+top: 70px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-left:50px;
+margin-right: 20px;
+}
+
+
+.sec1 .div5 .art5{display: none;
+background: #f1f1f1;
+position: absolute;
+top: 150px;
+min-width: 200px;
+height: 150px;
+overflow-y: auto;
+}
+
+.sec1 .div5:hover .art5{
+  display: block;
+}
+
+
+
+.sec2{margin-top: 20px;
+  width: 1200px;
+  margin-left: 80px;
+margin-bottom: 250px;
+border-bottom:1px solid black;
+height: 280px;}
+
+.sec2 div{margin-bottom: 150px;
+display: inline-block;}
+
+.sec2 .div1{background: url("website/tr.jpg");
+background-size: cover;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-left:50px;
+margin-right: 20px;
+position: relative;
+top: 70px;
+}
+
+.sec2 .div1 .art1{display: none;
+background: #f1f1f1;
+position: absolute;
+top: 150px;
+min-width: 200px;
+height: 150px;
+overflow-y: auto;
+}
+
+.sec2 .div1:hover .art1{display: block;
+  }
+
+.sec2 .div2{background: url("website/willmc.jpg");
+background-size: cover;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-left:50px;
+margin-right: 20px;
+position: relative;
+top: 70px;
+}
+
+.sec2 .div2 .art2{display: none;
+background: #f1f1f1;
+position: absolute;
+top: 150px;
+min-width: 200px;
+height: 150px;
+overflow-y: auto;
+}
+
+.sec2 .div2:hover .art2{display: block;
+  }
+
+.sec2 .div3{background: url("website/Deitrick-Haddon.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left:50px;
+  margin-right: 20px;
+  position: relative;
+  top: 70px;
+  }
+
+.sec2 .div3 .art3{display: none;
+  background: #f1f1f1;
+  position: absolute;
+  top: 150px;
+  min-width: 200px;
+  height: 150px;
+  overflow-y: auto;
+  }
+.sec2 .div3:hover .art3{display: block;
+    }
+
+.sec2 .div4{background: url("website/mary.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left:50px;
+    margin-right: 20px;
+    position: relative;
+    top: 70px;
+    }
+
+.sec2 .div4 .art4{display: none;
+    background: #f1f1f1;
+    position: absolute;
+    top: 150px;
+    min-width: 200px;
+    height: 150px;
+    overflow-y: auto;
+    }
+
+    .sec2 .div4:hover .art4{display: block;
+      }
+.sec2 .div5{background: url("website/urban-rescue.jpg");
+      background-size: cover;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-left:50px;
+      margin-right: 20px;
+      position: relative;
+      top: 70px;
+      }
+
+.sec2 .div5 .art5{display: none;
+      background: #f1f1f1;
+      position: absolute;
+      top: 150px;
+      min-width: 200px;
+      height: 150px;
+      overflow-y: auto;
+      }
+
+.sec2 .div5:hover .art5{display: block;
+        }
+
+
+
+
+
+footer{max-width:100%;
+
+border-bottom: 0px;}
+.head2 {clear:both;
+
+  background-color: #79e0a4;
+    color: #fff;
+    height: 40px;
+  text-align: center;}
